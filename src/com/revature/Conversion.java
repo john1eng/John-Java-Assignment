@@ -2,7 +2,7 @@ package com.revature;
 
 import java.util.Scanner;
 
-public class Main {
+public class Conversion {
 
     public static void main(String[] args) {
         System.out.println("What is the area of rectangle?");
