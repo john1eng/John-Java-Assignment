@@ -2,7 +2,7 @@ package com.revature;
 
 import java.util.Scanner;
 
-public class Exercise {
+public class ExerciseJan5 {
     public static void main(String[] args) {
         //WAP to find biggest of giving 3 numbers using nested if...else
         int n1 = 2;
@@ -29,9 +29,11 @@ public class Exercise {
 
         while(loanAfterROI>0){
             loanAfterROI = loanAfterROI - emi;
-            System.out.println("payment of " + emi + " in " + noemi + " installment.  " + "loan owe of " + loanAfterROI);
+            System.out.println("payment of " + emi + " in " + noemi + " installment.");
             noemi++;
         }
+
+        System.out.println("You are free after " + noemi + " installment.");
 
         //WAP to display numbers from 1 to n (n – is the range given by the user during the execution) and display even / odd next to each number.
         System.out.print("Enter a number range to find odd or even: ");
