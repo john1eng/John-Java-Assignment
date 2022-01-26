@@ -15,7 +15,11 @@ public class Rectangle {
     public void setValue(int w, int h){
         width = w;
         height = h;
+        String hello = "hello";
+        System.out.println(hello);
     }
+
+
 
     public String toString(){
         return "Rectangle [width = " + width + ", height = " + height + "]";
